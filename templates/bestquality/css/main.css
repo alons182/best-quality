@@ -50,10 +50,12 @@ input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 textarea{overflow:auto;vertical-align:top;}
 table{border-collapse:collapse;border-spacing:0}
-@font-face{font-family:'bestquality';src:url("../fonts/bestquality.eot?-mnub3c");src:url("../fonts/bestquality.eot?#iefix-mnub3c") format('embedded-opentype'),url("../fonts/bestquality.woff?-mnub3c") format('woff'),url("../fonts/bestquality.ttf?-mnub3c") format('truetype'),url("../fonts/bestquality.svg?-mnub3c#bestquality") format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'bestquality';src:url("../fonts/bestquality.eot?-ajod7m");src:url("../fonts/bestquality.eot?#iefix-ajod7m") format('embedded-opentype'),url("../fonts/bestquality.woff?-ajod7m") format('woff'),url("../fonts/bestquality.ttf?-ajod7m") format('truetype'),url("../fonts/bestquality.svg?-ajod7m#bestquality") format('svg');font-weight:normal;font-style:normal}
 [class^="icon-"],[class*=" icon-"]{font-family:'bestquality';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .icon-edit:before{content:"\e600"}
+.icon-calendar:before{content:"\e607"}
 .icon-search:before{content:"\e601"}
+.icon-cog:before{content:"\e608"}
 .icon-trash:before{content:"\e602"}
 .icon-list-view:before{content:"\e603"}
 .icon-upload:before{content:"\e604"}
