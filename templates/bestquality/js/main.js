@@ -8,8 +8,8 @@
 		link_certificate = $('.link-certificate a'),
 		link_curriculum = $('.link-curriculum a');
 
-		link_certificate.text('Ver Imagen');
-		link_curriculum.text('Ver Curriculum');
+		link_certificate.attr('target','_blank').text('Ver certificado');
+		link_curriculum.attr('target','_blank').text('Ver Curriculum');
 
 	menu.find(".parent").hoverIntent({
 	    over: function() {
@@ -94,8 +94,13 @@ $(".bpm").colorbox({
 		 }
 });
 
-$('.link-certificate .download-archive').colorbox();
+$('.link-certificate .download-archive.fabrik-filetype-jpg').colorbox();
+$('.link-certificate .download-archive.fabrik-filetype-png').colorbox();
+$('.link-certificate .download-archive.fabrik-filetype-gif').colorbox();
 
+$('.link-curriculum .download-archive.fabrik-filetype-jpg').colorbox();
+$('.link-curriculum .download-archive.fabrik-filetype-png').colorbox();
+$('.link-curriculum .download-archive.fabrik-filetype-gif').colorbox();
 /*
 // Using a jQuery object:
 var $form = $("#myForm");

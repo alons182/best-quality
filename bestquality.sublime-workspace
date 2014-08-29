@@ -4,16 +4,32 @@
 		"selected_items":
 		[
 			[
-				"bor",
-				"border"
-			],
-			[
-				"mar",
-				"margin"
+				"lin",
+				"link_certificate"
 			],
 			[
 				"tex",
-				"text-align"
+				"text-decoration"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"fa",
+				"fabrik_tooltip"
+			],
+			[
+				"nar",
+				"naranja_shadow"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border"
 			],
 			[
 				"cele",
@@ -124,10 +140,6 @@
 				"azul"
 			],
 			[
-				"po",
-				"position"
-			],
-			[
 				"ba",
 				"background"
 			],
@@ -202,10 +214,6 @@
 			[
 				"ca",
 				"categorySelected"
-			],
-			[
-				"nar",
-				"naranja"
 			],
 			[
 				"pro",
@@ -350,10 +358,6 @@
 			[
 				"imag",
 				"imageUrl"
-			],
-			[
-				"fa",
-				"false"
 			],
 			[
 				"has",
@@ -510,26 +514,11 @@
 			[
 				"product",
 				"product-title-display"
-			],
-			[
-				"ve",
-				"vertical-align"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"contents": "\n@import \"nib\"\n@import \"normalize.styl\"\n@import \"icons.styl\"\n@import \"tables.styl\"\n@import \"tooltip.styl\"\n\nazul = #00679a\nazul_oscuro = #004977\nrojo = #d20009 \nceleste = #4A8DF8\nceleste_shadow = #0070C0\nceleste_hover = #58C6E3\n\nverde = #329834 \nverde2 = #2d8b59//#396844\ngris = #626262\ngris_borde = #EFEFF0\nclaro = #E9EDDB\namarillo = #fdcd00\n\n@font-face {\n	font-family: 'proxima_novalight';\n	src: url('../fonts/proximanova-light-webfont.eot');\n	src: url('../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),\n		 url('../fonts/proximanova-light-webfont.woff') format('woff'),\n		 url('../fonts/proximanova-light-webfont.ttf') format('truetype'),\n		 url('../fonts/proximanova-light-webfont.svg#proxima_novalight') format('svg');\n	font-weight: normal;\n	font-style: normal;\n\n}\n\n@font-face {\n	font-family: 'proxima_novabold';\n	src: url('../fonts/proximanova-bold-webfont.eot');\n	src: url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),\n		 url('../fonts/proximanova-bold-webfont.woff') format('woff'),\n		 url('../fonts/proximanova-bold-webfont.ttf') format('truetype'),\n		 url('../fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');\n	font-weight: normal;\n	font-style: normal;\n\n}\n\n@font-face {\n	font-family: 'proxima_novaregular';\n	src: url('../fonts/proximanova-regular-webfont.eot');\n	src: url('../fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),\n		 url('../fonts/proximanova-regular-webfont.woff') format('woff'),\n		 url('../fonts/proximanova-regular-webfont.ttf') format('truetype'),\n		 url('../fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');\n	font-weight: normal;\n	font-style: normal;\n\n}\n\nbody\n	font-family 'proxima_novaregular', sans-serif\n	font-size 16px\n	color gris\n	line-height 25px\n\nul \n	margin 0\n	padding 0\n\nh4 \n	margin 0\n	color #363B3F\nh3 \n	margin-top 0\n	margin-bottom 15px\n	text-transform uppercase\n	font-family \"proxima_novabold\"\n	color #363B3F\n	font-size 1em\nh2  \n	color #363B3F\n	margin-top 0\n	margin-bottom 10px\n\nh1 \n	margin-top 0\n	margin-bottom 10px\n	color #363B3F\n	font-size 3em\n	line-height 1.15\n\np \n	margin 0 0 25px\n\na \n	color gris \n	text-decoration none\n	\n\ninput[type=\"text\"],\ninput[type=\"email\"],\ninput[type=\"password\"],\ninput[type=\"tel\"],\nselect\ntextarea\n	height: 35px;\n	margin: 0;\n	padding: 0 10px;\n	background: #F5F5F5;\n	border: 2px solid #E9E9E9;\n	outline: none;\n	color: #262B31;\n	box-shadow: none;\n	//-webkit-appearance: none;\n	box-sizing border-box\n	width 100%\ntextarea\n	height 150px \n\nlabel[for=\"mod-finder-searchword\"]\n	font-size 14px\n\n.inner\n	width 1170px //1280px\n	margin 0 auto\n	clearfix()\n\n.nav-header\n.dropdown-toggle\n.readmore\n.btn \n	display inline-block\n	height 34px\n	padding 0 12px\n	color #FFF \n	font-family \"proxima_novaregular\", sans-serif;\n	font-size 0.9em \n	line-height 36px\n	text-align center\n	text-transform uppercase\n	letter-spacing 1px\n	background-color gris\n	border none\n	outline none\n	border-radius 10px\n	cursor pointer\n	text-decoration none\n	vertical-align middle\n	box-shadow 0 4px 0 #82817F\n\n.btn-success\n.dropdown-toggle\n.readmore\n.btn-primary\n	background-color rojo !important\n	box-shadow 0 4px 0 #57C1AD\n	color #FFF\n	&:hover\n		background-color rojo !important\n\n.nav-header\n.btn-celeste\n	background-color celeste\n	box-shadow 0 4px 0 celeste_shadow\n	\n	&:hover\n		background-color azul\n\n.collapse\n	position relative\n	height 0\n	overflow hidden\n	transition height .35s ease\n	&.in \n		height auto\n\n.alert\n	padding 15px\n	margin-bottom 20px\n	border 1px solid rgba(0, 0, 0, 0)\n	border-radius 4px\n	p \n		margin 0\n\n.alert-message\n	color #31708F\n	background-color #D9EDF7\n	border-color #BCE8F1\n.close \n	cursor pointer\n	text-decoration none\n	position: relative;\n	top 10px\n	right 0px\n	float right\n	font-size 2em\n	&:hover \n		text-decoration none !important\n	\n\n\n#login-form\n.content-main\n	ul \n		margin-top 10px\n		margin-left 25px\n		\n.fabrikForm\n	ul \n		margin 0\n		a \n			color #FFF \n			text-decoration none \n.fabrik___heading\n	font-size 13px\n.fabrik__rowlink\n	display none\n.download-archive\n	text-decoration underline		\n\n.form-search\n	label\n		margin-bottom 5px\n		display inline-block\n\n.control-group\n	margin-bottom 9px	\n\n.element-invisible \n	display none\n\n.newsflash\n	.item-image\n		\n		img \n			width 100%\n			\n.newsflash-title\n	color celeste\n.bannergroup\n	height 400px !important\n	\n	.banneritem \n		margin-bottom 20px\n	img \n		width 100%\n\n.moduletable\n	padding-bottom 1em \n	margin-bottom 20px\n	border-bottom 1px solid gris_borde\n\n.item-image\n	img \n		max-width 100%\n\n.fabrikForm \n	.dropdown\n		margin-top 10px\n\n	.dropdown-menu\n		display none\n		background #57C1AD\n		padding .8em\n		position absolute\n		\n		a \n			color #FFF\n			text-decoration none\n			display block\n			padding .3em \n.b2jcontainer\n	background none !important\n	border none !important\n\n	input[type=\"text\"],\n	input[type=\"email\"],\n	input[type=\"password\"],\n	textarea\n		height: 35px !important;\n		background: #F5F5F5 !important;\n		border: 2px solid #E9E9E9 !important;\n\n	textarea\n		height 150px !important;\n\n	h2\n		background #7CCFBF\n\n#jform_profile_dob_spacer-lbl\n	display none\n.header\n	border-bottom 1px solid gris_borde\n	padding-bottom .5em\n	padding-top .5em\n\n.header-logo\n	display block\n	float left\n.header-logoImg\n	vertical-align middle\n\n.header-logoCertificacion\n	float left \n	margin-left 300px\n\n.header-languajes\n	float right\n	margin-top 20px\n\n\n.header-languajesLink\n	display inline-block\n	text-decoration none\n	color gris\n	margin-right 10px \n	&:last-child\n		margin-right 0\n	&:hover\n		color celeste_shadow \n		text-decoration underline\n.header-languajesImg\n	margin-right 5px\n\n.menu\n	margin-top 10px\n\n\n	li \n		display inline-block\n		vertical-align top\n		position relative\n		margin-bottom 10px \n		margin-right 13px\n		\n		a,\n		.nav-header  \n			font-size 12px\n		&:last-child \n			margin-right 0\n			\n\n.nav-child\n	display none\n	position absolute\n	background-color celeste_shadow\n	color #FFF\n	padding .5em\n	top 37px\n	left 0px\n	z-index 101\n\n	li \n		display block\n		margin-bottom 0\n		\n		a,\n		.nav-header \n			background none\n			color #FFF\n			text-decoration none\n			display block\n			padding .4em\n			font-size 0.9em\n			letter-spacing 1px\n			text-transform none\n			letter-spacing 1px\n\n			&:hover\n				color #8FD6C8\n\n\n	.nav-child\n		top 10px\n		left 211px\n\n.content \n	font-size 0\n.content-left\n.content-right\n.content-main \n	display inline-block\n	vertical-align top\n	padding-left 15px\n	padding-right 15px\n	padding-top 20px\n	font-size 1rem\n\n\n.content-left\n	width 16.66666667%\n	padding-left 0\n\n.content-right\n	width 22.65%\n	padding-right 0\n\n	\n		\n.content-main\n	padding-left 15px\n	padding-right 15px\n	position relative\n	width 55.33333333%\n	border-left 1px solid gris_borde\n	border-right 1px solid gris_borde\n	min-height 900px    \n\n\n.page-certificates\n\n	.btn \n		text-transform none\n		height auto\n		color #FFF \n		text-decoration none\n		line-height 18px\n		padding 3px 8px\n		font-size 13px\n\n		&:hover \n			text-decoration none\n			color #FFF\n.buttons-certificates\n	margin-bottom 15px\n\n	a \n		margin-right 5px\n		margin-bottom 8px\n		&:last-child\n			margin-right 0\n\n.temas-interes\n	h3 \n		background celeste\n		text-align center\n		color #FFF\n\n\n.banner\n	width 100%\n\n	img \n		width 100%\n.banner-slide\n	position relative\n\n.banner-description\n	position absolute\n	background rgba(0, 0, 0, .65)\n	color #FFF\n	bottom 10px\n	left 0 \n	right 0\n	padding .5em\n\n\n.footer \n	text-align center\n	font-size 12px\n.footer-copyright\n	color gris\n  \n.hidden\n	display none\n	\n.image-border\n	border 1px solid gris_borde\n	padding .2em\n	box-sizing border-box\n	border-radius 3px\n\n@import \"responsive.styl\"	\n\n",
-			"file": "templates/bestquality/stylus/main.styl",
-			"file_size": 8018,
-			"file_write_time": 130537308884788292,
-			"settings":
-			{
-				"buffer_size": 7548,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -691,16 +680,37 @@
 	},
 	"file_history":
 	[
-		"/C/xampp/htdocs/best-quality/components/com_contact/metadata.xml",
-		"/C/xampp/htdocs/best-quality/templates/bestquality/stylus/tooltip.styl",
-		"/C/xampp/htdocs/best-quality/templates/bestquality/stylus/main.styl",
+		"/C/xampp/htdocs/best-quality/templates/bestquality/index.php",
+		"/C/xampp/Mail Sent to Local Server/2014-08-28 21.27.48,296.eml",
+		"/C/xampp/Mail Sent to Local Server/2014-08-28 21.27.48,316.eml",
+		"/C/xampp/htdocs/best-quality/bestquality.sublime-project",
+		"/C/xampp/htdocs/best-quality/media/jui/css/bootstrap-extended.css",
+		"/C/xampp/htdocs/best-quality/index.php",
 		"/D/Documents/dumps/best_quality.sql",
+		"/C/xampp/htdocs/best-quality/templates/bestquality/js/main.js",
+		"/C/xampp/htdocs/best-quality/templates/bestquality/stylus/main.styl",
+		"/C/xampp/htdocs/best-quality/components/com_contact/metadata.xml",
+		"/C/xampp/htdocs/best-quality/templates/bestquality/html/com_fabrik/bootstrap/default_tabs.php",
+		"/C/xampp/htdocs/best-quality/templates/bestquality/html/com_fabrik/bootstrap/default_headings.php",
+		"/C/xampp/htdocs/best-quality/templates/bestquality/html/com_fabrik/bootstrap/default.php",
+		"/C/xampp/htdocs/best-quality/templates/bestquality/html/com_fabrik/bootstrap/default_row.php",
+		"/C/xampp/htdocs/best-quality/components/com_fabrik/views/list/tmpl/default.xml",
+		"/C/xampp/htdocs/best-quality/components/com_fabrik/views/list/tmpl25/default/default_row.php",
+		"/C/xampp/htdocs/best-quality/components/com_fabrik/views/list/tmpl25/default/default.php",
+		"/C/xampp/htdocs/best-quality/components/com_fabrik/views/list/view.html.php",
+		"/C/xampp/htdocs/best-quality/components/com_fabrik/views/list/tmpl/bootstrap/custom_css_example.php",
+		"/C/xampp/htdocs/best-quality/components/com_fabrik/views/list/tmpl/bootstrap/default_headings.php",
+		"/C/xampp/htdocs/best-quality/components/com_fabrik/views/list/tmpl/_advancedsearch.php",
+		"/C/xampp/Mail Sent to Local Server/2014-08-28 16.45.25,853.eml",
+		"/C/xampp/Mail Sent to Local Server/2014-08-28 16.47.13,425.eml",
+		"/C/xampp/Mail Sent to Local Server/2014-08-28 16.48.19,681.eml",
+		"/C/xampp/htdocs/best-quality/templates/bestquality/html/mod_articles_news/default.php",
+		"/C/xampp/htdocs/best-quality/templates/bestquality/stylus/tooltip.styl",
 		"/D/template partytime/template/templateDetails.xml",
 		"/D/template partytime/index.html",
 		"/D/template partytime/template/index.php",
 		"/D/template partytime/template/js/main.js",
 		"/D/Instaladores/Sublime Text Build 3059 x64/Data/Packages/AdvancedNewFile/Default (Windows).sublime-keymap",
-		"/C/xampp/htdocs/best-quality/templates/bestquality/js/main.js",
 		"/C/xampp/htdocs/best-quality/templates/bestquality/css/main.css",
 		"/D/template guanacaste/index.html",
 		"/D/template guanacaste/template/error.php",
@@ -722,16 +732,12 @@
 		"/C/xampp/htdocs/best-quality/plugins/fabrik_element/textarea/textarea-min.js",
 		"/C/xampp/htdocs/best-quality/templates/bestquality/html/mod_banners/default.php",
 		"/C/xampp/htdocs/best-quality/templates/bestquality/css/colorbox.css",
-		"/C/xampp/htdocs/best-quality/templates/bestquality/index.php",
 		"/D/Downloads/Compressed/colorbox-master/colorbox-master/example1/colorbox.css",
 		"/D/Downloads/Compressed/colorbox-master/colorbox-master/example5/index.html",
 		"/C/xampp/htdocs/best-quality/templates/bestquality/stylus/responsive.styl",
 		"/C/xampp/Mail Sent to Local Server/2014-08-18 17.25.00,432.eml",
 		"/D/Documents/base_datost.sql",
 		"/C/xampp/htdocs/best-quality/README.txt",
-		"/C/xampp/htdocs/best-quality/bestquality.sublime-project",
-		"/C/xampp/htdocs/best-quality/media/jui/css/bootstrap-extended.css",
-		"/C/xampp/htdocs/best-quality/templates/bestquality/html/mod_articles_news/default.php",
 		"/C/xampp/htdocs/best-quality/templates/bestquality/templateDetails.xml",
 		"/C/xampp/htdocs/best-quality/modules/mod_languages/tmpl/default.php",
 		"/C/xampp/htdocs/best-quality/modules/mod_footer/tmpl/default.php",
@@ -772,7 +778,6 @@
 		"/C/xampp/htdocs/best-quality/media/jui/less/responsive.less",
 		"/C/xampp/htdocs/best-quality/libraries/joomla/http/response.php",
 		"/C/xampp/htdocs/best-quality/components/com_fabrik/models/webservice/rest.php",
-		"/C/xampp/htdocs/best-quality/index.php",
 		"/C/xampp/htdocs/best-quality/administrator/manifests/libraries/idna_convert.xml",
 		"/C/xampp/htdocs/best-quality/components/com_contact/helpers/icon.php",
 		"/C/xampp/htdocs/best-quality/administrator/components/com_installer/controller.php",
@@ -802,23 +807,7 @@
 		"/C/xampp/htdocs/best-quality/templates/beez3/html/mod_login/default.php",
 		"/C/xampp/htdocs/best-quality/administrator/components/com_jce/views/help/tmpl/default.php",
 		"/C/xampp/htdocs/best-quality/administrator/components/com_fabrik/views/home/tmpl/default.php",
-		"/C/xampp/htdocs/best-quality/administrator/components/com_admin/views/help/tmpl/default.php",
-		"/C/xampp/htdocs/best-quality/templates/bestquality/html/editor_content.css",
-		"/C/xampp/htdocs/best-quality/libraries/cms/html/date.php",
-		"/C/xampp/htdocs/best-quality/libraries/cms/html/access.php",
-		"/C/xampp/htdocs/best-quality/libraries/cms/html/searchtools.php",
-		"/C/xampp/htdocs/best-quality/libraries/cms/html/menu.php",
-		"/C/xampp/htdocs/best-quality/templates/beez3/html/modules.php",
-		"/C/xampp/htdocs/best-quality/components/com_fabrik/helpers/html.php",
-		"/C/xampp/htdocs/best-quality/htaccess.txt",
-		"/C/xampp/htdocs/best-quality/libraries/cms/installer/manifest.php",
-		"/C/xampp/htdocs/best-quality/templates/bestquality/js/works.js",
-		"/C/xampp/htdocs/best-quality/templates/bestquality/html/mod_articles_news/tmpl/_item.php",
-		"/C/xampp/htdocs/frame/templates/frameprojects/templateDetails.xml",
-		"/C/xampp/htdocs/best-quality/templates/bestquality/html/mod_articles_news/mod_articles_news.php",
-		"/C/xampp/htdocs/best-quality/templates/bestquality/html/mod_articles_news/tmpl/default.php",
-		"/C/xampp/htdocs/best-quality/templates/bestquality/html/modules.php",
-		"/C/xampp/htdocs/best-quality/templates/bestquality/html/pagination.php"
+		"/C/xampp/htdocs/best-quality/administrator/components/com_admin/views/help/tmpl/default.php"
 	],
 	"find":
 	{
@@ -836,6 +825,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"menu",
+			"bannergroup ",
+			"rojo",
 			"menu",
 			"btn",
 			".img",
@@ -960,10 +952,7 @@
 			"main_imagen",
 			"email_address",
 			"propiedades",
-			"relative",
-			"Twitter",
-			"queryTwitter",
-			"lenght"
+			"relative"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1011,97 +1000,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "templates/bestquality/stylus/main.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7548,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								228,
-								228
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 2820.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1156,8 +1056,16 @@
 		"selected_items":
 		[
 			[
+				"bestquaindex",
+				"templates\\bestquality\\index.php"
+			],
+			[
 				"main",
 				"templates\\bestquality\\stylus\\main.styl"
+			],
+			[
+				"main.js",
+				"templates\\bestquality\\js\\main.js"
 			],
 			[
 				"res",
@@ -1206,10 +1114,6 @@
 			[
 				"main.s",
 				"templates\\bestquality\\stylus\\main.styl"
-			],
-			[
-				"main.js",
-				"templates\\bestquality\\js\\main.js"
 			],
 			[
 				"bestqua",
