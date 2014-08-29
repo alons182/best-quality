@@ -1,0 +1,32 @@
+2014-08-18 23:24:03 ---------------------------------------------------
+*Nombre*
+alonso
+
+*Email*
+alons182@hotmail.com
+
+*Comentario*
+test
+
+
+
+Best Quality - http://localhost/best-quality/es/contactanos.html
+Client: ::1 - Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+
+2014-08-18 23:24:03 Email sent.
+2014-08-18 23:25:00 ---------------------------------------------------
+*Nombre*
+alonso
+
+*Email*
+alons182@hotmail.com
+
+*Comentario*
+test2
+
+
+
+Best Quality - http://localhost/best-quality/es/contactanos.html
+Client: ::1 - Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+
+2014-08-18 23:25:00 Email sent.

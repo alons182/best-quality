@@ -1,0 +1,489 @@
+
+@import "nib"
+@import "normalize.styl"
+@import "icons.styl"
+@import "tables.styl"
+@import "tooltip.styl"
+
+azul = #00679a
+azul_oscuro = #004977
+naranja = #FF4900
+naranja_shadow = #d43d00 
+celeste = #4A8DF8
+celeste_shadow = #0070C0
+celeste_hover = #58C6E3
+
+verde = #329834 
+verde2 = #2d8b59//#396844
+gris = #626262
+gris_borde = #EFEFF0
+claro = #E9EDDB
+amarillo = #fdcd00
+
+@font-face {
+	font-family: 'proxima_novalight';
+	src: url('../fonts/proximanova-light-webfont.eot');
+	src: url('../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/proximanova-light-webfont.woff') format('woff'),
+		 url('../fonts/proximanova-light-webfont.ttf') format('truetype'),
+		 url('../fonts/proximanova-light-webfont.svg#proxima_novalight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'proxima_novabold';
+	src: url('../fonts/proximanova-bold-webfont.eot');
+	src: url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/proximanova-bold-webfont.woff') format('woff'),
+		 url('../fonts/proximanova-bold-webfont.ttf') format('truetype'),
+		 url('../fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'proxima_novaregular';
+	src: url('../fonts/proximanova-regular-webfont.eot');
+	src: url('../fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/proximanova-regular-webfont.woff') format('woff'),
+		 url('../fonts/proximanova-regular-webfont.ttf') format('truetype'),
+		 url('../fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+body
+	font-family 'proxima_novaregular', sans-serif
+	font-size 16px
+	color gris
+	line-height 25px
+
+ul 
+	margin 0
+	padding 0
+
+h4 
+	margin 0
+	color #363B3F
+h3 
+	margin-top 0
+	margin-bottom 15px
+	text-transform uppercase
+	font-family "proxima_novabold"
+	color #363B3F
+	font-size 1em
+h2  
+	color #363B3F
+	margin-top 0
+	margin-bottom 10px
+
+h1 
+	margin-top 0
+	margin-bottom 10px
+	color #363B3F
+	font-size 3em
+	line-height 1.15
+
+p 
+	margin 0 0 25px
+
+a 
+	color gris 
+	text-decoration none
+	
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+select
+textarea
+	height: 35px;
+	margin: 0;
+	padding: 0 10px;
+	background: #F5F5F5;
+	border: 2px solid #E9E9E9;
+	outline: none;
+	color: #262B31;
+	box-shadow: none;
+	//-webkit-appearance: none;
+	box-sizing border-box
+	width 100%
+textarea
+	height 150px 
+
+label[for="mod-finder-searchword"]
+	font-size 14px
+
+.inner
+	width 1170px //1280px
+	margin 0 auto
+	clearfix()
+
+.nav-header
+.dropdown-toggle
+.readmore
+.btn 
+	display inline-block
+	height 34px
+	padding 0 12px
+	color #FFF 
+	font-family "proxima_novaregular", sans-serif;
+	font-size 0.9em 
+	line-height 36px
+	text-align center
+	text-transform uppercase
+	letter-spacing 1px
+	background-color gris
+	border none
+	outline none
+	border-radius 10px
+	cursor pointer
+	text-decoration none
+	vertical-align middle
+	box-shadow 0 4px 0 #82817F
+
+.btn-success
+.dropdown-toggle
+.readmore
+.btn-primary
+	background-color naranja !important
+	box-shadow 0 4px 0 naranja_shadow
+	color #FFF
+	&:hover
+		background-color naranja !important
+
+.nav-header
+.btn-celeste
+	background-color celeste
+	box-shadow 0 4px 0 celeste_shadow
+	
+	&:hover
+		background-color azul
+
+.collapse
+	position relative
+	height 0
+	overflow hidden
+	transition height .35s ease
+	&.in 
+		height auto
+
+.alert
+	padding 15px
+	margin-bottom 20px
+	border 1px solid rgba(0, 0, 0, 0)
+	border-radius 4px
+	p 
+		margin 0
+
+.alert-message
+	color #31708F
+	background-color #D9EDF7
+	border-color #BCE8F1
+.close 
+	cursor pointer
+	text-decoration none
+	position: relative;
+	top 10px
+	right 0px
+	float right
+	font-size 2em
+	&:hover 
+		text-decoration none !important
+	
+
+
+#login-form
+.content-main
+	ul 
+		margin-top 10px
+		margin-left 25px
+		
+.fabrikForm
+	ul 
+		margin 0
+		a 
+			color #FFF 
+			text-decoration none 
+.fabrik___heading
+	font-size 13px
+.fabrik__rowlink
+	display none
+.download-archive
+	text-decoration underline
+.fabrikTip
+	cursor pointer
+	text-decoration underline		
+.truncate_text
+	width 600px
+	padding 1em
+.form-search
+	label
+		margin-bottom 5px
+		display inline-block
+
+.control-group
+	margin-bottom 9px	
+
+.element-invisible 
+	display none
+
+.newsflash
+	.item-image
+		
+		img 
+			width 100%
+			
+.newsflash-title
+	color celeste
+.bannergroup
+	height 500px !important
+	
+	.banneritem 
+		margin-bottom 20px
+	img 
+		width 100%
+
+.moduletable
+	padding-bottom 1em 
+	margin-bottom 20px
+	border-bottom 1px solid gris_borde
+.temas-interes
+	margin-top 20px
+.item-image
+	img 
+		max-width 100%
+
+.fabrikForm 
+	.dropdown
+		margin-top 10px
+
+	.dropdown-menu
+		display none
+		background naranja_shadow
+		padding .8em
+		position absolute
+		
+		a 
+			color #FFF
+			text-decoration none
+			display block
+			padding .3em 
+.b2jcontainer
+	background none !important
+	border none !important
+
+	input[type="text"],
+	input[type="email"],
+	input[type="password"],
+	textarea
+		height: 35px !important;
+		background: #F5F5F5 !important;
+		border: 2px solid #E9E9E9 !important;
+
+	textarea
+		height 150px !important;
+
+	h2
+		background celeste
+
+#jform_profile_dob_spacer-lbl
+	display none
+.header
+	border-bottom 1px solid gris_borde
+	padding-bottom .5em
+	padding-top .5em
+	background url(../img/stardust.png) #53565A
+
+.header-logo
+	display block
+	float left
+.header-logoImg
+	vertical-align middle
+	border-radius 10px
+
+.header-logoCertificacion
+	float left 
+	margin-left 450px
+.header-logoCertificacionImg
+	border-radius 10px
+
+.header-languajes
+	float right
+	margin-top 20px
+
+
+.header-languajesLink
+	display inline-block
+	text-decoration none
+	color #FFF
+	margin-right 10px 
+	&:last-child
+		margin-right 0
+	&:hover
+		color celeste
+		text-decoration underline
+.header-languajesImg
+	margin-right 5px
+
+.menu
+	margin-top 10px
+
+
+	li 
+		display inline-block
+		vertical-align top
+		position relative
+		margin-bottom 10px 
+		margin-right 5px
+		
+		a,
+		.nav-header  
+			font-size 12px
+		&:last-child 
+			margin-right 0
+			
+
+.nav-child
+	display none
+	position absolute
+	background-color celeste_shadow
+	color #FFF
+	padding .5em
+	top 37px
+	left 0px
+	z-index 101
+
+	li 
+		display block
+		margin-bottom 0
+		
+		a,
+		.nav-header 
+			background none
+			color #FFF
+			text-decoration none
+			display block
+			padding .4em
+			font-size 0.9em
+			letter-spacing 1px
+			text-transform none
+			letter-spacing 1px
+
+			&:hover
+				color #8FD6C8
+
+
+	.nav-child
+		top 10px
+		left 211px
+
+.content 
+	font-size 0
+.content-left
+.content-right
+.content-main 
+	display inline-block
+	vertical-align top
+	padding-left 15px
+	padding-right 15px
+	padding-top 20px
+	font-size 1rem
+
+
+.content-left
+	width 16.66666667%
+	padding-left 0
+
+.content-right
+	width 22.65%
+	padding-right 0
+
+	
+		
+.content-main
+	padding-left 15px
+	padding-right 15px
+	position relative
+	width 55.33333333%
+	border-left 1px solid gris_borde
+	border-right 1px solid gris_borde
+	min-height 900px    
+
+.info-ccr
+.info-foodSafety
+.info-csr
+.info-productos
+.info-bpm
+	padding 1em
+.page-certificates
+
+	.btn 
+		text-transform none
+		height auto
+		color #FFF 
+		text-decoration none
+		line-height 18px
+		padding 3px 8px
+		font-size 13px
+
+		&:hover 
+			text-decoration none
+			color #FFF
+.buttons-certificates
+	margin-bottom 15px
+
+	a 
+		margin-right 5px
+		margin-bottom 8px
+		&:last-child
+			margin-right 0
+
+.temas-interes
+	h3 
+		background celeste
+		text-align center
+		color #FFF
+
+
+.banner
+	width 100%
+	
+	img 
+		width 100%
+		
+.banner-slide
+	position relative
+	
+.banner-description
+	position absolute
+	background rgba(0, 0, 0, .65)
+	color #FFF
+	bottom 10px
+	left 0 
+	right 0
+	padding .5em
+
+
+.footer 
+	text-align center
+	font-size 12px
+.footer-copyright
+	color gris
+  
+.hidden
+	display none
+	
+.image-border
+	border 1px solid gris_borde
+	padding .2em
+	box-sizing border-box
+	border-radius 3px
+
+@import "responsive.styl"	
+
