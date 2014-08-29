@@ -48,7 +48,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/colorbox.css');
                 <span class="header-logoCertificacion"><img class="header-logoCertificacionImg" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/mundo.jpg" alt="Certificacion Internacional"></span>
                 <div class="header-languajes">
                     <a href="<?php echo $this->baseurl ?>/es" class="header-languajesLink "><img class="header-languajesImg" src="<?php echo $this->baseurl ?>/media/mod_languages/images/es_es.gif" alt="Español" />Español</a>
-                    <a href="<?php echo $this->baseurl ?>/en" class="header-languajesLink"><img class="header-languajesImg" src="<?php echo $this->baseurl ?>/media/mod_languages/images/en_us.gif" alt="Ingles" />Ingles</a>
+                    <a href="#" class="header-languajesLink"><img class="header-languajesImg" src="<?php echo $this->baseurl ?>/media/mod_languages/images/en_us.gif" alt="Ingles" />Ingles</a>
                 </div>
                 
 
