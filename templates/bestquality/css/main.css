@@ -113,8 +113,8 @@ label[for="mod-finder-searchword"]{font-size:14px}
 .inner:before,.inner:after{content:"";display:table}
 .inner:after{clear:both}
 .nav-header,.dropdown-toggle,.readmore,.btn{display:inline-block;height:34px;padding:0 12px;color:#fff;font-family:"proxima_novaregular",sans-serif;font-size:.9em;line-height:36px;text-align:center;text-transform:uppercase;letter-spacing:1px;background-color:#626262;border:none;outline:none;-webkit-border-radius:10px;border-radius:10px;cursor:pointer;text-decoration:none;vertical-align:middle;-webkit-box-shadow:0 4px 0 #82817f;box-shadow:0 4px 0 #82817f}
-.btn-success,.dropdown-toggle,.readmore,.btn-primary{background-color:#ff4900 !important;-webkit-box-shadow:0 4px 0 #d43d00;box-shadow:0 4px 0 #d43d00;color:#fff;}
-.btn-success:hover,.dropdown-toggle:hover,.readmore:hover,.btn-primary:hover{background-color:#ff4900 !important}
+.btn-red,.btn-success,.dropdown-toggle,.readmore,.btn-primary{background-color:#ff4900 !important;-webkit-box-shadow:0 4px 0 #d43d00;box-shadow:0 4px 0 #d43d00;color:#fff;}
+.btn-red:hover,.btn-success:hover,.dropdown-toggle:hover,.readmore:hover,.btn-primary:hover{background-color:#ff4900 !important}
 .nav-header,.btn-celeste{background-color:#4a8df8;-webkit-box-shadow:0 4px 0 #0070c0;box-shadow:0 4px 0 #0070c0;}
 .nav-header:hover,.btn-celeste:hover{background-color:#00679a}
 .collapse{position:relative;height:0;overflow:hidden;-webkit-transition:height 0.35s ease;-moz-transition:height 0.35s ease;-o-transition:height 0.35s ease;-ms-transition:height 0.35s ease;transition:height 0.35s ease;}
@@ -124,7 +124,7 @@ label[for="mod-finder-searchword"]{font-size:14px}
 .alert-message{color:#31708f;background-color:#d9edf7;border-color:#bce8f1}
 .close{cursor:pointer;text-decoration:none;position:relative;top:10px;right:0;float:right;font-size:2em;}
 .close:hover{text-decoration:none !important}
-#login-form ul,.content-main ul{margin-top:10px;margin-left:25px}
+#login-form ul,.content-main ul{margin-top:10px;margin-left:25px;margin-bottom:15px}
 .fabrikForm ul{margin:0;}
 .fabrikForm ul a{color:#fff;text-decoration:none}
 .fabrik___heading{font-size:13px}
@@ -173,7 +173,8 @@ label[for="mod-finder-searchword"]{font-size:14px}
 .content{font-size:0}
 .content-left,.content-right,.content-main{display:inline-block;vertical-align:top;padding-left:15px;padding-right:15px;padding-top:20px;font-size:1rem}
 .content-left{width:16.66666667%;padding-left:0}
-.content-right{width:22.65%;padding-right:0}
+.content-right{width:22.65%;padding-right:0;}
+.content-right p{font-size:13px}
 .content-main{padding-left:15px;padding-right:15px;position:relative;width:55.33333333%;border-left:1px solid #efeff0;border-right:1px solid #efeff0;min-height:900px}
 .info-ccr,.info-foodSafety,.info-csr,.info-productos,.info-bpm{padding:1em}
 .page-certificates .btn{text-transform:none;height:auto;color:#fff;text-decoration:none;line-height:18px;padding:3px 8px;font-size:13px;}

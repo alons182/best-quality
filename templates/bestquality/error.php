@@ -21,50 +21,45 @@ $itemid   = $app->input->getCmd('Itemid', '');
 <!DOCTYPE html>
 <html lang="<?php echo $this->language; ?>" >
 <head>
-	<title><?php echo $this->title; ?> <?php echo $this->error->getMessage();?></title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+	<meta charset="utf-8">
+    <title><?php echo $this->title; ?> <?php echo $this->error->getMessage();?></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/main.css" type="text/css" />
 
 </head>
 <body class="<?php echo ($itemid ? ' bgid-' . $itemid : '')?>">
-        <div class="header-top">
-            <div class="inner">
-            <?php
-            
-                $moduleLang = JModuleHelper::getModule('mod_custom','Languajes');
-                echo $renderer->render($moduleLang);
-
-               /* $moduleLogin = JModuleHelper::getModule('mod_custom','Login Btn');
-                echo $renderer->render($moduleLogin);
-
-                $moduleFormLogin = JModuleHelper::getModule('Login','Login');
-                echo $renderer->render($moduleFormLogin);*/
-
-
-                   
-             ?>
-             
-            </div>  
-        </div>
-        <header>
+       
+        <header class="header">
             <div class="inner">
                 
-                <a href="<?php echo $this->baseurl ?>" class="logo"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/logo.png" alt="Pura vida Teaching" /></a>
-                <div id="btn_nav"><i class="icon-menu"></i></div>
-                <nav class="menu">
+                <a href="<?php echo $this->baseurl ?>" class="header-logo"><img class="header-logoImg" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/logo.jpg" alt="Best Quality" /></a>
+                <span class="header-logoCertificacion"><img class="header-logoCertificacionImg" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/mundo.jpg" alt="Certificacion Internacional"></span>
+                <div class="header-languajes">
+                    <a href="<?php echo $this->baseurl ?>/es" class="header-languajesLink "><img class="header-languajesImg" src="<?php echo $this->baseurl ?>/media/mod_languages/images/es_es.gif" alt="Español" />Español</a>
+                    <a href="#" class="header-languajesLink"><img class="header-languajesImg" src="<?php echo $this->baseurl ?>/media/mod_languages/images/en_us.gif" alt="Ingles" />Ingles</a>
+                </div>
+                
+
+            </div>
+            <nav class="menu inner">
                     <?php if (JModuleHelper::getModule('menu')) : ?>
                         <?php
                                         $mt = JModuleHelper::getModule('menu');
                                         echo JModuleHelper::renderModule($mt);
                                     ?>
-                        <?php endif; ?>
-                </nav>
-
-            </div>
+                        <?php endif; ?>      
+            </nav>
         </header>
         
-        <section class="main inner">
-                <div class="text404">
+        <section class="content inner">
+               
+                    <aside class="content-left">
+                       <jdoc:include type="modules" name="content-left" style="xhtml" />
+                    </aside>
+              
+                <section class="content-main">
+                     <div class="text404">
                         <h1 class="page-header"><?php echo JText::_('JERROR_LAYOUT_PAGE_NOT_FOUND'); ?></h1>
                             <div class="well">
                             <div class="row-fluid">
@@ -99,27 +94,51 @@ $itemid   = $app->input->getCmd('Itemid', '');
                         </div>
 
                 </div>
+                    
+                        <aside class="content-mainBottom">
+                           <jdoc:include type="modules" name="content-mainBottom" style="none" />
+                        </aside>
+                   
+                </section>
+              
+                    <aside class="content-right">
+                       <jdoc:include type="modules" name="content-right" style="xhtml" />
+                    </aside>
+               
+               
+               
+                <section class="content-bottom">
+                   <jdoc:include type="modules" name="content-bottom" style="none" />
+                </section>
+              
+               
             
         </section>
-        <footer>
-            <em class="tear"></em>
-            <div class="inner" style="text-align: center;">
+        <footer class="footer">
+            
+            <div class="inner">
+                <span class="footer-copyright">Copyright © 2013 Bestquality.com <br />All Rights Reserved.</span>
                
-                <div class="column column-logo">
-                     <a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/logo.png" alt="Pura vida Teaching"/></a>
-                     <div class="redes">
-                        <a href="#"><i class="icon icon-facebook"></i></a>
-                        <a href="#"><i class="icon icon-twitter"></i></a>
-                        <a href="#"><i class="icon icon-googleplus"></i></a>
-                    </div>
-                </div>
             </div>
         </footer>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-        
+  
+        <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.colorbox-min.js"></script>
+        <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.cycle2.min.js"></script>
+        <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.cycle2.carousel.min.js"></script>
+        <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.hoverIntent.minified.js"></script>
+        <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/holder.js"></script>
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/main.js"></script>
 
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+           /* (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');*/
+        </script>
+        <jdoc:include type="modules" name="debug" style="none" />
     </body>
 
 </html>
