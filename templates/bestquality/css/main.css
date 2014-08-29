@@ -185,6 +185,10 @@ label[for="mod-finder-searchword"]{font-size:14px}
 .temas-interes h3{background:#4a8df8;text-align:center;color:#fff}
 .banner{width:100%;}
 .banner img{width:100%}
+.banner #banner-pager{z-index:200;position:relative;bottom:0;text-align:center;}
+.banner #banner-pager a{background-color:#ff4900;border:1px solid #ff4900;-webkit-border-radius:50%;border-radius:50%;color:$oscuro;cursor:pointer;display:inline-block;font-size:12px;margin:0 3px;padding:6px;}
+.banner #banner-pager a:hover{padding:8px}
+.banner #banner-pager .cycle-pager-active{padding:8px}
 .banner-slide{position:relative}
 .banner-description{position:absolute;background:rgba(0,0,0,0.65);color:#fff;bottom:10px;left:0;right:0;padding:.5em}
 .footer{text-align:center;font-size:12px}
