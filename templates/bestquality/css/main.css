@@ -178,7 +178,7 @@ label[for="mod-finder-searchword"]{font-size:14px}
 .header-languajesLink:last-child{margin-right:0}
 .header-languajesLink:hover{color:#4a8df8;text-decoration:underline}
 .header-languajesImg{margin-right:5px}
-.menu{margin-top:5px;}
+.menu{margin-top:10px;}
 .menu li{display:inline-block;vertical-align:top;position:relative;margin-bottom:10px;margin-right:5px;}
 .menu li a,.menu li .nav-header{font-size:12px}
 .menu li:last-child{margin-right:0}
