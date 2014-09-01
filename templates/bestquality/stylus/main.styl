@@ -204,7 +204,8 @@ label[for="mod-finder-searchword"]
 		margin-top 10px
 		margin-left 25px
 		margin-bottom 15px
-		
+.fabrikDataContainer
+	font-size 13px		
 .fabrikForm
 	ul 
 		margin 0
@@ -256,6 +257,22 @@ label[for="mod-finder-searchword"]
 	border-bottom 1px solid gris_borde
 .temas-interes
 	margin-top 20px
+	
+	.newsflash 
+		background celeste
+		color #FFF
+		padding-bottom 35px
+		border-radius 10px
+		p 
+			padding 0 .5em
+	.newsflash-title
+		color #FFF
+		margin-bottom 10px 
+		padding 0 .5em
+	.readmore
+		position relative
+		bottom 0
+		left .5em
 .item-image
 	img 
 		max-width 100%
@@ -299,15 +316,17 @@ label[for="mod-finder-searchword"]
 	border-bottom 1px solid gris_borde
 	padding-bottom .5em
 	padding-top .5em
-	background url(../img/stardust.png) #53565A
+	background  #0070c0
 
 .header-logo
 	display block
 	float left
 .header-logoImg
 	vertical-align middle
-	border-radius 10px
-
+	//border-radius 10px
+.header-logoTitle
+	font-size 3em
+	color #FFF
 .header-logoCertificacion
 	float left 
 	margin-left 450px
@@ -333,7 +352,7 @@ label[for="mod-finder-searchword"]
 	margin-right 5px
 
 .menu
-	margin-top 10px
+	margin-top 5px
 
 
 	li 
@@ -383,6 +402,7 @@ label[for="mod-finder-searchword"]
 	.nav-child
 		top 10px
 		left 211px
+		min-width 110px 
 
 .content 
 	font-size 0
@@ -467,8 +487,8 @@ label[for="mod-finder-searchword"]
 		bottom 0em
 		text-align center
 		a 
-			background-color naranja
-			border 1px solid naranja
+			background-color #bbbbbb
+			border 1px solid #bbbbbb
 			border-radius 50%
 			color $oscuro
 			cursor pointer
@@ -482,6 +502,20 @@ label[for="mod-finder-searchword"]
 
 		.cycle-pager-active 
 			padding 8px
+
+.cycle-paused:after
+	content 'Pausado'
+	color #FFF
+	background #000
+	padding 10px
+	z-index 500
+	position absolute
+	top 10px
+	right 10px
+	border-radius 10px
+	opacity .5
+	
+
 		
 .banner-slide
 	position relative

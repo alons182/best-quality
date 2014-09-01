@@ -14,3 +14,4 @@
 2014-08-22T01:34:54+00:00	INFO	joomlafailure	Username and password do not match or you do not have an account yet.
 2014-08-22T16:15:20+00:00	INFO	joomlafailure	El usuario y contraseña no coinciden o usted aún no tiene una cuenta.
 2014-09-01T15:28:59+00:00	INFO	joomlafailure	Username and password do not match or you do not have an account yet.
+2014-09-01T17:12:01+00:00	INFO	joomlafailure	Username and password do not match or you do not have an account yet.

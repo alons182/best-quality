@@ -44,8 +44,8 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/colorbox.css');
         <header class="header">
             <div class="inner">
                 
-                <a href="<?php echo $this->baseurl ?>" class="header-logo"><img class="header-logoImg" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/logo.jpg" alt="Best Quality" /></a>
-                <span class="header-logoCertificacion"><img class="header-logoCertificacionImg" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/mundo.jpg" alt="Certificacion Internacional"></span>
+                <a href="<?php echo $this->baseurl ?>" class="header-logo"><img class="header-logoImg" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/logo.png" alt="Best Quality" /> <span class="header-logoTitle">Best Quality Standards</span></a>
+                
                 <div class="header-languajes">
                     <a href="<?php echo $this->baseurl ?>/es" class="header-languajesLink "><img class="header-languajesImg" src="<?php echo $this->baseurl ?>/media/mod_languages/images/es_es.gif" alt="Español" />Español</a>
                     <a href="#" class="header-languajesLink"><img class="header-languajesImg" src="<?php echo $this->baseurl ?>/media/mod_languages/images/en_us.gif" alt="Ingles" />Ingles</a>
@@ -53,10 +53,11 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/colorbox.css');
                 
 
             </div>
-            <nav class="menu inner">
+            
+        </header>
+        <nav class="menu inner">
                     <jdoc:include type="modules" name="menu" style="none" />                  
             </nav>
-        </header>
         
         <section class="content inner">
                 <?php if ($this->countModules('content-left')) : ?>

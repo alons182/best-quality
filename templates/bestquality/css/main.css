@@ -136,6 +136,7 @@ label[for="mod-finder-searchword"]{font-size:14px}
 .close{cursor:pointer;text-decoration:none;position:relative;top:10px;right:0;float:right;font-size:2em;}
 .close:hover{text-decoration:none !important}
 #login-form ul,.content-main ul{margin-top:10px;margin-left:25px;margin-bottom:15px}
+.fabrikDataContainer{font-size:13px}
 .fabrikForm ul{margin:0;}
 .fabrikForm ul a{color:#fff;text-decoration:none}
 .fabrik___heading{font-size:13px}
@@ -152,7 +153,11 @@ label[for="mod-finder-searchword"]{font-size:14px}
 .bannergroup .banneritem{margin-bottom:20px}
 .bannergroup img{width:100%}
 .moduletable{padding-bottom:1em;margin-bottom:20px;border-bottom:1px solid #efeff0}
-.temas-interes{margin-top:20px}
+.temas-interes{margin-top:20px;}
+.temas-interes .newsflash{background:#4a8df8;color:#fff;padding-bottom:35px;-webkit-border-radius:10px;border-radius:10px;}
+.temas-interes .newsflash p{padding:0 .5em}
+.temas-interes .newsflash-title{color:#fff;margin-bottom:10px;padding:0 .5em}
+.temas-interes .readmore{position:relative;bottom:0;left:.5em}
 .item-image img{max-width:100%}
 .fabrikForm .dropdown{margin-top:10px}
 .fabrikForm .dropdown-menu{display:none;background:#d43d00;padding:.8em;position:absolute;}
@@ -162,9 +167,10 @@ label[for="mod-finder-searchword"]{font-size:14px}
 .b2jcontainer textarea{height:150px !important}
 .b2jcontainer h2{background:#4a8df8}
 #jform_profile_dob_spacer-lbl{display:none}
-.header{border-bottom:1px solid #efeff0;padding-bottom:.5em;padding-top:.5em;background:url("../img/stardust.png") #53565a}
+.header{border-bottom:1px solid #efeff0;padding-bottom:.5em;padding-top:.5em;background:#0070c0}
 .header-logo{display:block;float:left}
-.header-logoImg{vertical-align:middle;-webkit-border-radius:10px;border-radius:10px}
+.header-logoImg{vertical-align:middle}
+.header-logoTitle{font-size:3em;color:#fff}
 .header-logoCertificacion{float:left;margin-left:450px}
 .header-logoCertificacionImg{-webkit-border-radius:10px;border-radius:10px}
 .header-languajes{float:right;margin-top:20px}
@@ -172,7 +178,7 @@ label[for="mod-finder-searchword"]{font-size:14px}
 .header-languajesLink:last-child{margin-right:0}
 .header-languajesLink:hover{color:#4a8df8;text-decoration:underline}
 .header-languajesImg{margin-right:5px}
-.menu{margin-top:10px;}
+.menu{margin-top:5px;}
 .menu li{display:inline-block;vertical-align:top;position:relative;margin-bottom:10px;margin-right:5px;}
 .menu li a,.menu li .nav-header{font-size:12px}
 .menu li:last-child{margin-right:0}
@@ -180,7 +186,7 @@ label[for="mod-finder-searchword"]{font-size:14px}
 .nav-child li{display:block;margin-bottom:0;}
 .nav-child li a,.nav-child li .nav-header{background:none;color:#fff;text-decoration:none;display:block;padding:.4em;font-size:.9em;letter-spacing:1px;text-transform:none;letter-spacing:1px;}
 .nav-child li a:hover,.nav-child li .nav-header:hover{color:#8fd6c8}
-.nav-child .nav-child{top:10px;left:211px}
+.nav-child .nav-child{top:10px;left:211px;min-width:110px}
 .content{font-size:0}
 .content-left,.content-right,.content-main{display:inline-block;vertical-align:top;padding-left:15px;padding-right:15px;padding-top:20px;font-size:1rem}
 .content-left{width:16.66666667%;padding-left:0}
@@ -197,9 +203,10 @@ label[for="mod-finder-searchword"]{font-size:14px}
 .banner{width:100%;}
 .banner img{width:100%}
 .banner #banner-pager{z-index:200;position:relative;bottom:0;text-align:center;}
-.banner #banner-pager a{background-color:#ff4900;border:1px solid #ff4900;-webkit-border-radius:50%;border-radius:50%;color:$oscuro;cursor:pointer;display:inline-block;font-size:12px;margin:0 3px;padding:6px;}
+.banner #banner-pager a{background-color:#bbb;border:1px solid #bbb;-webkit-border-radius:50%;border-radius:50%;color:$oscuro;cursor:pointer;display:inline-block;font-size:12px;margin:0 3px;padding:6px;}
 .banner #banner-pager a:hover{padding:8px}
 .banner #banner-pager .cycle-pager-active{padding:8px}
+.cycle-paused:after{content:'Pausado';color:#fff;background:#000;padding:10px;z-index:500;position:absolute;top:10px;right:10px;-webkit-border-radius:10px;border-radius:10px;opacity:.5;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";filter:alpha(opacity=50)}
 .banner-slide{position:relative}
 .banner-description{position:absolute;background:rgba(0,0,0,0.65);color:#fff;bottom:10px;left:0;right:0;padding:.5em}
 .footer{text-align:center;font-size:12px}

@@ -12,7 +12,7 @@ defined('_JEXEC') or die;
 require_once JPATH_ROOT . '/components/com_banners/helpers/banner.php';
 $baseurl = JUri::base();
 ?>
-<div class="bannergroup<?php echo $moduleclass_sfx ?> cycle-slideshow" data-cycle-slides=".banneritem" data-cycle-fx="carousel" data-cycle-timeout="2000"  data-cycle-carousel-visible="4" data-cycle-carousel-vertical="true">
+<div class="bannergroup<?php echo $moduleclass_sfx ?> cycle-slideshow" data-cycle-slides=".banneritem" data-cycle-fx="carousel" data-cycle-speed="4000" data-cycle-timeout="1" data-cycle-easing="linear" data-cycle-carousel-visible="4" data-cycle-carousel-vertical="true">
 <?php if ($headerText) : ?>
 	<?php echo $headerText; ?>
 <?php endif; ?>
