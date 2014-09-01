@@ -49,3 +49,18 @@ WHERE `id` = '3'; user = 697
 DELETE 
 FROM `e3zcq_personal_certificates_repeat_curriculum`
 WHERE `id` = '3'; user = 697
+2014-09-01T15:30:02+00:00	WARNING	com_fabrik.element.fileupload	Delete files: C:\xampp\htdocs\best-quality\images\certificados\gJCdd0WY8w.\h35YWgwVfk.pdf , \images\certificados\thumbs\gJCdd0WY8w.\h35YWgwVfk.pdf, \images\certificados\crop\gJCdd0WY8w.\h35YWgwVfk.pdf; user = 697
+2014-09-01T15:30:02+00:00	WARNING	com_fabrik.element.fileupload	Delete join image entry: 
+DELETE 
+FROM `e3zcq_personal_certificates_repeat_certificate`
+WHERE `id` = '4'; user = 697
+2014-09-01T15:30:04+00:00	WARNING	com_fabrik.element.fileupload	Delete files: C:\xampp\htdocs\best-quality\images\curriculum\50LZLPkJcW.\rsGbtCbcF5.pdf , \images\stories\thumbs\50LZLPkJcW.\rsGbtCbcF5.pdf, \images\stories\crop\50LZLPkJcW.\rsGbtCbcF5.pdf; user = 697
+2014-09-01T15:30:04+00:00	WARNING	com_fabrik.element.fileupload	Delete join image entry: 
+DELETE 
+FROM `e3zcq_personal_certificates_repeat_curriculum`
+WHERE `id` = '4'; user = 697
+2014-09-01T15:30:17+00:00	WARNING	com_fabrik.element.fileupload	Delete files: C:\xampp\htdocs\best-quality\images\certificados\RYFnVPygGw.\Nf8DY97Qjv.jpg , \images\certificados\thumbs\RYFnVPygGw.\Nf8DY97Qjv.jpg, \images\certificados\crop\RYFnVPygGw.\Nf8DY97Qjv.jpg; user = 697
+2014-09-01T15:30:17+00:00	WARNING	com_fabrik.element.fileupload	Delete join image entry: 
+DELETE 
+FROM `e3zcq_personal_certificates_repeat_certificate`
+WHERE `id` = 'p190otcv3719tv1qnsot11rv64qe7'; user = 697
