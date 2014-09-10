@@ -22,10 +22,13 @@ $itemid   = $app->input->getCmd('Itemid', '');
 //JHtml::_('bootstrap.framework');
 
 // Add Stylesheets
-//$doc->addStyleSheet('templates/'.$this->template.'/css/normalize.min.css');
 
-$doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
+
+//$doc->addStyleSheet('templates/'.$this->template.'/css/fullcalendar.min.css');
+$doc->addStyleSheet('templates/'.$this->template.'/css/ion.calendar.css');
 $doc->addStyleSheet('templates/'.$this->template.'/css/colorbox.css');
+$doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
+
 
 
 ?>
@@ -50,6 +53,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/colorbox.css');
                     <a href="<?php echo $this->baseurl ?>/es" class="header-languajesLink "><img class="header-languajesImg" src="<?php echo $this->baseurl ?>/media/mod_languages/images/es_es.gif" alt="Español" />Español</a>
                     <a href="#" class="header-languajesLink"><img class="header-languajesImg" src="<?php echo $this->baseurl ?>/media/mod_languages/images/en_us.gif" alt="Ingles" />Ingles</a>
                 </div>
+                <a href="#" class="facebook"><i class="icon-facebook"></i>acebook</a>
                 
 
             </div>
@@ -101,8 +105,16 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/colorbox.css');
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.cycle2.carousel.min.js"></script>
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.hoverIntent.minified.js"></script>
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/holder.js"></script>
+        <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/moment-with-locales.min.js"></script>
+        <!--<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/fullcalendar.min.js"></script>
+       -->
+        <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/ion.calendar.min.js"></script>
+       
+        
+        
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/main.js"></script>
 
+       
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
            /* (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

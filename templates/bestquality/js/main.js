@@ -6,10 +6,14 @@
 		dropdown_menu = $('.fabrikForm .dropdown-menu'),
 		fabrik_tooltip = $('.fabrikTip'),
 		link_certificate = $('.link-certificate a'),
-		link_curriculum = $('.link-curriculum a');
+		link_curriculum = $('.link-curriculum a'),
+		link_certificate_description = $('.link-certificate-description a');
 
 		link_certificate.attr('target','_blank').text('Ver certificado');
 		link_curriculum.attr('target','_blank').text('Ver Curriculum');
+		link_certificate_description.attr('target','_blank').text('Ver descripción');
+
+		lang = $('html').attr('lang');
 
 	menu.find(".parent").hoverIntent({
 	    over: function() {
@@ -94,18 +98,73 @@ $(".bpm").colorbox({
 		 }
 });
 
-$('.link-certificate .download-archive.fabrik-filetype-jpg').colorbox();
-$('.link-certificate .download-archive.fabrik-filetype-png').colorbox();
-$('.link-certificate .download-archive.fabrik-filetype-gif').colorbox();
+$('.link-certificate .download-archive.fabrik-filetype-jpg').colorbox({
+	maxWidth: '900px'
+});
+$('.link-certificate .download-archive.fabrik-filetype-png').colorbox({
+	maxWidth: '900px'
+});
+$('.link-certificate .download-archive.fabrik-filetype-gif').colorbox({
+	maxWidth: '900px'
+});
 
-$('.link-curriculum .download-archive.fabrik-filetype-jpg').colorbox();
-$('.link-curriculum .download-archive.fabrik-filetype-png').colorbox();
-$('.link-curriculum .download-archive.fabrik-filetype-gif').colorbox();
+$('.link-curriculum .download-archive.fabrik-filetype-jpg').colorbox({
+	maxWidth: '900px'
+});
+$('.link-curriculum .download-archive.fabrik-filetype-png').colorbox({
+	maxWidth: '900px'
+});
+$('.link-curriculum .download-archive.fabrik-filetype-gif').colorbox({
+	maxWidth: '900px'
+});
+
+$('.link-certificate-description .download-archive.fabrik-filetype-jpg').colorbox({
+	maxWidth: '900px'
+});
+$('.link-certificate-description .download-archive.fabrik-filetype-png').colorbox({
+	maxWidth: '900px'
+});
+$('.link-certificate-description .download-archive.fabrik-filetype-gif').colorbox({
+	maxWidth: '900px'
+});
+
+//var newcontendido = '<a href="#" class="ld">Link</a><div class="ldc hidden">'+contenido_certificacion +'</div>';
+//$('.link-certificate-description').html(newcontendido);
+//console.log(contenido_certificacion);
+$(".ld").colorbox({
+	inline:true,
+	href:".ldc",
+	width: "900px",
+	maxHeight: "650px",
+	onOpen:function(){ 
+		$('.ldc').removeClass('hidden');	
+		 },
+	onClosed:function(){ 
+		$('.ldc').addClass('hidden');	
+		 }
+});
 /*
 // Using a jQuery object:
 var $form = $("#myForm");
 $("#inline").colorbox({inline:true, href:$form});
 */
 
+if (lang == "es-es") {
+	 $("#calendar").ionCalendar({
+	    lang: "es",
+	    years: "80"
+	    
+	});
+	
+}else
+{
+	$("#calendar").ionCalendar({
+	    lang: "en",
+	    years: "80"
+	    
+	});
+}
+
 })(jQuery);
+
 

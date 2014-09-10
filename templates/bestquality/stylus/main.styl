@@ -123,6 +123,7 @@ label[for="mod-finder-searchword"]
 	width 1170px //1280px
 	margin 0 auto
 	clearfix()
+	position relative
 
 .nav-header
 .dropdown-toggle
@@ -309,6 +310,12 @@ label[for="mod-finder-searchword"]
 
 	h2
 		background celeste
+.contact-phone
+	position absolute
+	top 35px
+	right 35px
+	color #FFF
+	font-size 1.5em
 
 #jform_profile_dob_spacer-lbl
 	display none
@@ -336,7 +343,15 @@ label[for="mod-finder-searchword"]
 .header-languajes
 	float right
 	margin-top 20px
-
+.facebook
+	position absolute
+	right 0
+	top 89px
+	font-size 2em
+	color #FFF
+	
+	i 
+		margin-right -5px
 
 .header-languajesLink
 	display inline-block
@@ -445,6 +460,7 @@ label[for="mod-finder-searchword"]
 .info-productos
 .info-bpm
 	padding 1em
+	text-align justify
 .page-certificates
 
 	.btn 
@@ -454,16 +470,21 @@ label[for="mod-finder-searchword"]
 		text-decoration none
 		line-height 18px
 		padding 3px 8px
-		font-size 13px
+		font-size 12px
 
 		&:hover 
 			text-decoration none
 			color #FFF
+.page-certificates-business
+	.page-header
+		h1
+			font-size 18px
+			margin-top -15px
 .buttons-certificates
 	margin-bottom 15px
 
 	a 
-		margin-right 5px
+		margin-right 3px
 		margin-bottom 8px
 		&:last-child
 			margin-right 0
@@ -545,5 +566,27 @@ label[for="mod-finder-searchword"]
 	box-sizing border-box
 	border-radius 3px
 
+.ldc
+	padding 1em
+//*io.calendar
+.ic__header
+	background celeste 
+	select
+		height auto
+.ic__prev
+.ic__next
+	background-color celeste
+.ic__days 
+	.ic__day
+		&:hover
+			background naranja
+	.ic__day_state_current
+		background naranja
+		color #FFF
+
+// convertidor
+.WolframAlphaWidgetLarge
+	height 250px
+	width 100% !important
 @import "responsive.styl"	
 

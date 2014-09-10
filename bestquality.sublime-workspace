@@ -5,7 +5,15 @@
 		[
 			[
 				"mar",
-				"margin-bottom"
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"pa",
+				"padding-bottom"
 			],
 			[
 				"lin",
@@ -26,10 +34,6 @@
 			[
 				"nar",
 				"naranja_shadow"
-			],
-			[
-				"bor",
-				"border"
 			],
 			[
 				"cele",
@@ -114,10 +118,6 @@
 			[
 				"con",
 				"content-right"
-			],
-			[
-				"pa",
-				"padding"
 			],
 			[
 				"ver",
@@ -519,87 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "templates/bestquality/js/main.js",
-			"settings":
-			{
-				"buffer_size": 2662,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/bestquality/stylus/main.styl",
-			"settings":
-			{
-				"buffer_size": 8298,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "bar939:bar123",
-			"settings":
-			{
-				"buffer_size": 13,
-				"line_ending": "Windows",
-				"name": "bar939:bar123"
-			}
-		},
-		{
-			"file": "templates/bestquality/stylus/icons.styl",
-			"settings":
-			{
-				"buffer_size": 1095,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "\n<h2>Temas Impartidos</h2> \n\n<h3>Definiciones de Términos Técnicos Alimentarios:</h3>\n<p>Alimentos, Nutrientes, Manipulación, Manipulador,\nHigiene Alimentaria, Cadena alimentaria, Cadena de frío.\nAlimentos Inocuos, Contaminación, Patógenos, y otros.</p>\n\n<h3>Vías de Contaminación de los Alimentos:</h3>\n<p>Peligros físicos, peligros químicos y peligros biológicos.</p>\n\n<h3>Enfermedades Trasmitidas por Alimentos (ETA):</h3>\n<p>Intoxicación, infección y toxiinfección alimentaria.<br/>\nEnfermedades provocadas por peligros químicos.<br/>\nPeligros químicos de origen biológico y no biológico.</p>\n\n<h3>Bacteria y Microorganismos Patógenos:</h3>\n<p>Microorganismos patógenos.<br/>\nBacterias y sus características generales.<br/>\nCondiciones favorables para el crecimiento bacteriano.<br/>\nNutrientes, humedad, oxigeno, temperatura, tiempo, Ph.</p>\n\n<h3>Agentes Causales y Enfermedades que Producen:</h3>\n<p>Clostridium perfringens, Clostridium botulinum.<br/>\n Salmonela ssp, Listeria monocytogenes, Scherichea coli.<br/>\nStaphylococcus aureus, Virus de la hepatitis a, Virus morwalk.</p>\n\n<h3>Alergias Alimentarias: </h3>\n<p>La alergia a alimentos.<br/>\nLa alergia al látex.<br/>\nAcciones Preventivas.</p>\n\n<h3>Intolerancias Alimentarias:</h3>\n<p>El gluten.<br/>\nLa enfermedad celiaca.<br/>\nPrincipales alimentos causantes de alergias.<br/>\nEl uso del lates en la manipulación alimentaria. </p>\n\n<h3>Importancia de la Salud del Manipulador de Alimentos:</h3>\n<p>El enfermo (descripción).<br/>\nEl portador sano de una enfermedad (descripción).</p>\n\n<h3>Normas Higiénicas del Manipulador de Alimentos:</h3>\n<p>Hábitos higiénicos del manipulador de alimentos. <br/>\nTécnica e importancia del lavado y desinfección de las manos.</p>\n\n<h3>Suministro y Recepción de Productos Alimenticios:</h3>\n<p>Recepción de productos alimenticios.<br/>\nControles generales y controles especiales.<br/>\nStock, y transporte de productos alimenticios.<br/>\nMétodos de conservación (refrigeración, congelación, ultra congelación y cadena de frío).</p>\n\n<h3>La Contaminación Cruzada:</h3>\n<p>El método de colores.<br/>\nEl método de marcha adelante.</p>\n\n<h3>Control de Tiempo y Temperatura:</h3>\n<p>Abusos de tiempo y temperatura más frecuentes.<br/>\nLa toma de temperatura en los alimentos (método correcto).</p>\n\n<h3>La Manipulación en los Diferentes Procesos de la Manipulación de Alimentos:</h3>\n<p>Limpieza y desinfección de vegetales, frutas y verduras.<br/>\nCocción, Recalentamiento, Enfriamiento, Descongelación.<br/>\nTemperatura ambiente de las áreas de manipulación de alimentos.</p>\n\n<h3>Diferencia Entre: Desinfección, Sanitización y Esterilización:</h3>\n<p>Definiciones: Desinfección, Sanitización y Esterilización.</p>\n\n<h3>La Actividad Acuosa:</h3>\n<p>Aplicación de la actividad del agua.<br/>\nImportancia de la calidad del agua en la manipulación de alimentos.</p>\n\n<h3>La Trazabilidad:</h3>\n<p>El Etiquetado.<br/>\nLa trazabilidad interna y externa.<br/>\nTrazabilidad hacia atrás y hacia delante.<br/>\nMétodo del alimento testigo vs recetas documentadas.</p>\n\n<h3>El Termómetro para Alimentos:</h3>\n<p>Tipos de termómetros para uso alimentario.<br/>\nEl termómetro bimetálico, el termómetro digital.<br/>\nEl termocupla o termopar, el termómetro infrarrojo. </p>\n\n<h3>Métodos de Calibración y Validación de Termómetros:</h3>\n<p>Método de punto de hielo.<br/>\nMétodo de punto de ebullición.<br/>\nMétodo de validación (para termómetros instalados).</p>\n\n<h3>Sistema de Limpieza y Desinfección 3D:</h3>\n<p>La limpieza.<br/>\nLa desinfección.<br/>\nMétodo de desinfección.<br/>\nLimpieza vs desinfección.<br/>\nDesinfección por calor (El lava platos).<br/>\nProductos adecuados para limpieza.<br/>\nLimpieza de equipos y utensilios.<br/> \nLimpieza y desinfección de las áreas de manipulación.<br/>\nPlan o programa de limpieza y desinfección (L+D).</p>\n\n<h3>Desinsectación y Desratización: </h3>\n<p>Luchas contras las plagas (insectos y roedores).</p>\n\n<h3>Tratamiento de los Desechos:</h3>\n<p>Selección, Almacenamiento y Evaluación.</p>\n\n<h3>Características de las Instalaciones y Equipos:</h3>\n<p>Características de las instalaciones.<br/>\nCaracterísticas de utensilios y equipos. </p>\n\n<h3>Control de Calidad de los Alimentos (HACCP):</h3>\n<p>Historia del Sistema HACCP.<br/>\nLas ventajas del sistema HACCP.<br/>\nQuien desarrolla y aplica el sistema HACCP en el establecimiento.</p>\n\n\n",
-			"settings":
-			{
-				"buffer_size": 4367,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Downloads/bestquality (1)/style.css",
-			"settings":
-			{
-				"buffer_size": 1080,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/Downloads/bestquality/style.css",
-			"settings":
-			{
-				"buffer_size": 995,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/bestquality/error.php",
-			"settings":
-			{
-				"buffer_size": 7770,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/xampp/htdocs/fashion/index.html",
-			"settings":
-			{
-				"buffer_size": 5638,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/bestquality/index.php",
-			"settings":
-			{
-				"buffer_size": 5404,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -761,24 +680,49 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/best-quality"
+		"/C/xampp/htdocs/best-quality/administrator/components",
+		"/C/xampp/htdocs/best-quality/administrator/components/com_fabrik/helpers",
+		"/C/xampp/htdocs/best-quality/templates"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/bortex/.gitignore",
+		"/C/xampp/htdocs/best-quality/templates/bestquality/index.php",
+		"/C/xampp/htdocs/best-quality/templates/bestquality/html/mod_banners/default.php",
+		"/C/xampp/htdocs/best-quality/templates/bestquality/stylus/responsive.styl",
+		"/C/xampp/htdocs/best-quality/templates/bestquality/stylus/main.styl",
+		"/C/xampp/htdocs/best-quality/README.txt",
+		"/C/xampp/htdocs/best-quality/modules/mod_banners/mod_banners.xml",
+		"/C/xampp/htdocs/best-quality/modules/mod_banners/mod_banners.php",
+		"/C/xampp/htdocs/best-quality/modules/mod_b2jcontact/mod_b2jcontact.php",
+		"/C/xampp/htdocs/best-quality/modules/mod_articles_news/tmpl/_item.php",
+		"/C/xampp/htdocs/best-quality/libraries/legacy/table/module.php",
+		"/C/xampp/htdocs/best-quality/administrator/components/com_modules/modules.php",
+		"/C/xampp/htdocs/best-quality/layouts/joomla/content/info_block/modify_date.php",
+		"/C/xampp/htdocs/best-quality/administrator/components/com_categories/views/category/tmpl/modal_options.php",
+		"/C/xampp/htdocs/best-quality/configuration.php",
+		"/C/xampp/htdocs/best-quality/plugins/fabrik_form/email/tmpl/custom_order.php",
+		"/C/xampp/htdocs/best-quality/plugins/fabrik_list/copy/copy-min.js",
+		"/C/xampp/htdocs/best-quality/bestquality.sublime-project",
+		"/C/xampp/htdocs/best-quality/administrator/components/com_fabrik/views/element/tmpl/bootstrap_access.php",
+		"/C/xampp/htdocs/best-quality/components/com_banners/banners.php",
+		"/C/xampp/htdocs/best-quality/media/com_banners/banner.js",
+		"/C/xampp/htdocs/best-quality/media/jui/css/bootstrap-extended.css",
+		"/C/xampp/htdocs/best-quality/index.php",
+		"/C/xampp/htdocs/best-quality/components/com_contact/metadata.xml",
+		"/C/xampp/htdocs/best-quality/templates/bestquality/js/main.js",
+		"/C/xampp/htdocs/best-quality/templates/bestquality/stylus/icons.styl",
+		"/D/Downloads/bestquality (1)/style.css",
+		"/D/Downloads/bestquality/style.css",
+		"/C/xampp/htdocs/best-quality/templates/bestquality/error.php",
+		"/C/xampp/htdocs/fashion/index.html",
 		"/D/Documents/dumps/best_quality.sql",
 		"/C/xampp/htdocs/best-quality/.gitignore",
 		"/C/xampp/htdocs/best-quality/templates/beez3/error.php",
 		"/C/xampp/htdocs/best-quality/logs/error.php",
 		"/C/xampp/htdocs/best-quality/templates/system/css/error_rtl.css",
-		"/C/xampp/htdocs/best-quality/templates/bestquality/stylus/main.styl",
-		"/C/xampp/htdocs/best-quality/components/com_contact/metadata.xml",
-		"/C/xampp/htdocs/best-quality/templates/bestquality/index.php",
 		"/C/xampp/Mail Sent to Local Server/2014-08-28 21.27.48,296.eml",
 		"/C/xampp/Mail Sent to Local Server/2014-08-28 21.27.48,316.eml",
-		"/C/xampp/htdocs/best-quality/bestquality.sublime-project",
-		"/C/xampp/htdocs/best-quality/media/jui/css/bootstrap-extended.css",
-		"/C/xampp/htdocs/best-quality/index.php",
-		"/C/xampp/htdocs/best-quality/templates/bestquality/js/main.js",
 		"/C/xampp/htdocs/best-quality/templates/bestquality/html/com_fabrik/bootstrap/default_tabs.php",
 		"/C/xampp/htdocs/best-quality/templates/bestquality/html/com_fabrik/bootstrap/default_headings.php",
 		"/C/xampp/htdocs/best-quality/templates/bestquality/html/com_fabrik/bootstrap/default.php",
@@ -811,22 +755,16 @@
 		"/D/template guanacaste/template/js/cotizador.js",
 		"/D/template guanacaste/template/js/main.js",
 		"/C/xampp/htdocs/best-quality/templates/bestquality/html/mod_articles_news/_item.php",
-		"/C/xampp/htdocs/best-quality/administrator/components/com_categories/views/category/tmpl/modal_options.php",
-		"/C/xampp/htdocs/best-quality/layouts/joomla/content/info_block/modify_date.php",
-		"/C/xampp/htdocs/best-quality/modules/mod_b2jcontact/mod_b2jcontact.php",
 		"/C/xampp/htdocs/best-quality/modules/mod_articles_archive/mod_articles_archive.php",
 		"/C/xampp/htdocs/best-quality/modules/mod_articles_news/mod_articles_news.php",
 		"/C/xampp/htdocs/best-quality/administrator/includes/toolbar.php",
 		"/C/xampp/htdocs/best-quality/media/com_fabrik/js/lib/ace/src-min-noconflict/theme-eclipse.js",
 		"/C/xampp/htdocs/best-quality/plugins/fabrik_element/textarea/textarea-min.js",
-		"/C/xampp/htdocs/best-quality/templates/bestquality/html/mod_banners/default.php",
 		"/C/xampp/htdocs/best-quality/templates/bestquality/css/colorbox.css",
 		"/D/Downloads/Compressed/colorbox-master/colorbox-master/example1/colorbox.css",
 		"/D/Downloads/Compressed/colorbox-master/colorbox-master/example5/index.html",
-		"/C/xampp/htdocs/best-quality/templates/bestquality/stylus/responsive.styl",
 		"/C/xampp/Mail Sent to Local Server/2014-08-18 17.25.00,432.eml",
 		"/D/Documents/base_datost.sql",
-		"/C/xampp/htdocs/best-quality/README.txt",
 		"/C/xampp/htdocs/best-quality/templates/bestquality/templateDetails.xml",
 		"/C/xampp/htdocs/best-quality/modules/mod_languages/tmpl/default.php",
 		"/C/xampp/htdocs/best-quality/modules/mod_footer/tmpl/default.php",
@@ -862,7 +800,6 @@
 		"/C/xampp/htdocs/best-quality/templates/bestquality/css/bootstrap.min.css",
 		"/C/xampp/htdocs/best-quality/templates/bestquality/stylus/tables.styl",
 		"/D/Downloads/bootstrap (1)/js/bootstrap.js",
-		"/C/xampp/htdocs/best-quality/modules/mod_articles_news/tmpl/_item.php",
 		"/C/xampp/htdocs/best-quality/components/com_content/views/article/tmpl/default.php",
 		"/C/xampp/htdocs/best-quality/media/jui/less/responsive.less",
 		"/C/xampp/htdocs/best-quality/libraries/joomla/http/response.php",
@@ -876,23 +813,7 @@
 		"/C/xampp/htdocs/best-quality/modules/mod_whosonline/tmpl/default.php",
 		"/C/xampp/htdocs/best-quality/modules/mod_weblinks/tmpl/default.php",
 		"/C/xampp/htdocs/best-quality/modules/mod_wrapper/tmpl/default.php",
-		"/C/xampp/htdocs/best-quality/administrator/components/com_joomlaupdate/models/default.php",
-		"/C/xampp/htdocs/best-quality/administrator/modules/mod_custom/tmpl/default.php",
-		"/C/xampp/htdocs/best-quality/administrator/modules/mod_feed/tmpl/default.php",
-		"/C/xampp/htdocs/best-quality/modules/mod_users_latest/tmpl/default.php",
-		"/C/xampp/htdocs/best-quality/modules/mod_tags_similar/tmpl/default.php",
-		"/C/xampp/htdocs/best-quality/modules/mod_tags_popular/tmpl/default.php",
-		"/C/xampp/htdocs/best-quality/modules/mod_syndicate/tmpl/default.php",
-		"/C/xampp/htdocs/best-quality/modules/mod_stats/tmpl/default.php",
-		"/C/xampp/htdocs/best-quality/modules/mod_search/tmpl/default.php",
-		"/C/xampp/htdocs/best-quality/modules/mod_related_items/tmpl/default.php",
-		"/C/xampp/htdocs/best-quality/modules/mod_random_image/tmpl/default.php",
-		"/C/xampp/htdocs/best-quality/modules/mod_menu/tmpl/default.php",
-		"/C/xampp/htdocs/best-quality/modules/mod_login/tmpl/default.php",
-		"/C/xampp/htdocs/fashionfactory/public/js/vendor/holder.js",
-		"/D/Downloads/Compressed/imsky-holder-f4fc0b4/holder.js",
-		"/C/xampp/htdocs/best-quality/components/com_newsfeeds/newsfeeds.php",
-		"/C/xampp/htdocs/best-quality/templates/beez3/html/mod_breadcrumbs/default.php"
+		"/C/xampp/htdocs/best-quality/administrator/components/com_joomlaupdate/models/default.php"
 	],
 	"find":
 	{
@@ -910,6 +831,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"menu",
+			"header",
 			"•	",
 			"btn",
 			"menu",
@@ -1035,9 +958,7 @@
 			"RewriteCond",
 			"output",
 			"control-label",
-			"control-group",
-			"main_imagen",
-			"email_address"
+			"control-group"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1085,889 +1006,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "templates/bestquality/js/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2662,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								398,
-								398
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "templates/bestquality/stylus/main.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8298,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7705,
-								7705
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 8802.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7,
-								13
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_name": "bar939:bar123",
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "templates/bestquality/stylus/icons.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1095,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1095,
-								1095
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 120.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4367,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3440,
-								3440
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1384.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/D/Downloads/bestquality (1)/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1080,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1080,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/D/Downloads/bestquality/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 995,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								535,
-								535
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "templates/bestquality/error.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7770,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2582,
-								2582
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1980.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/C/xampp/htdocs/fashion/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5638,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								52,
-								74
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "templates/bestquality/index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5404,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								814,
-								814
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 120.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -2022,6 +1062,30 @@
 		"selected_items":
 		[
 			[
+				"",
+				"templates\\bestquality\\stylus\\main.styl"
+			],
+			[
+				"responsi",
+				"templates\\bestquality\\stylus\\responsive.styl"
+			],
+			[
+				"besmod_ban",
+				"templates\\bestquality\\html\\mod_banners\\default.php"
+			],
+			[
+				"bestinde",
+				"templates\\bestquality\\index.php"
+			],
+			[
+				"main.sty",
+				"templates\\bestquality\\stylus\\main.styl"
+			],
+			[
+				"main",
+				"templates\\bestquality\\stylus\\main.styl"
+			],
+			[
 				"error",
 				"templates\\bestquality\\error.php"
 			],
@@ -2036,10 +1100,6 @@
 			[
 				"bestquaindex",
 				"templates\\bestquality\\index.php"
-			],
-			[
-				"main",
-				"templates\\bestquality\\stylus\\main.styl"
 			],
 			[
 				"res",
@@ -2060,10 +1120,6 @@
 			[
 				"bestquadefau",
 				"templates\\bestquality\\html\\mod_banners\\default.php"
-			],
-			[
-				"responsi",
-				"templates\\bestquality\\stylus\\responsive.styl"
 			],
 			[
 				"bestquainde",
@@ -2092,10 +1148,6 @@
 			[
 				"bestqua",
 				"templates\\bestquality\\index.php"
-			],
-			[
-				"main.sty",
-				"templates\\bestquality\\stylus\\main.styl"
 			],
 			[
 				"puravida/in",
@@ -2436,10 +1488,6 @@
 			[
 				"produccon",
 				"app/controllers/Admin/ProductsController.php"
-			],
-			[
-				"",
-				".gitignore"
 			],
 			[
 				"prod",
